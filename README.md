@@ -27,7 +27,7 @@ The average time complexity of QuickSort is O(n log n).
 
 6/ Space Complexity:
 This implementation works in-place, one advantage of QuickSort is its low space usage.
-  - Achieving minimal space usage.
+  - Achieving minimal space usage, it more space-efficient for large datasets.
 
 # Network Delay Time
   (Finding how long it will take for a signal to travel from a source node to all other nodes in a network.)
