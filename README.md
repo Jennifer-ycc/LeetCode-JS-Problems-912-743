@@ -1,12 +1,17 @@
-- Sort an Array
+# Sort an Array
 
-1/ QuickSort Algorithm: - This algorithm that works by selecting a "pivot" element from an array and dividing the other elements into two subarrays
-based on whether they are smaller or larger than the pivot. - All elements smaller than the pivot go to the left and all elements larger go to the right. - It recursively sorts the left and right subarrays.
+1/ QuickSort Algorithm: 
+ - This algorithm that works by selecting a "pivot" element from an array and dividing the other elements into two subarrays
+based on whether they are smaller or larger than the pivot.
+ - All elements smaller than the pivot go to the left and all elements larger go to the right.
+  - It recursively sorts the left and right subarrays.
 
 2/ Pivot:
 It is chosen as the first, last, middle, or even a random element and helps in dividing the array into two parts.
 
-3/ Partition the Array: - All elements smaller than the pivot go to its left. - All elements greater than the pivot go to its right.
+3/ Partition the Array: 
+- All elements smaller than the pivot go to its left.
+- All elements greater than the pivot go to its right.
 
 4/ Recursive QuickSort:
 
@@ -16,12 +21,15 @@ It is chosen as the first, last, middle, or even a random element and helps in d
 
 5/ Time Complexity:
 QuickSort divides the array into two relatively equal halves in each step. This leads to a time complexity of O(n log n).
-The average time complexity of QuickSort is O(n log n). - n is the number of elements in the array. - log n is the number of times you can divide the array in half.
+The average time complexity of QuickSort is O(n log n). 
+  - n is the number of elements in the array.
+  - log n is the number of times you can divide the array in half.
 
 6/ Space Complexity:
-This implementation works in-place, one advantage of QuickSort is its low space usage. - Achieving minimal space usage.
+This implementation works in-place, one advantage of QuickSort is its low space usage.
+  - Achieving minimal space usage.
 
-- Network Delay Time
+# Network Delay Time
   (Finding how long it will take for a signal to travel from a source node to all other nodes in a network.)
 
 1/ Graph Construction (Adjacency List Representation): 
