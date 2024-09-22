@@ -89,3 +89,12 @@ The total time complexity is O((V + E) log V):
 O(V + E) for storing : 
     - The graph (which has V nodes and E edges).
     - The dist array to keep track of the shortest distances.
+
+7/ Challenges Faced:
+- Getting Started: 
+    I took a bit more time than expected just figuring out how to begin. 
+    From understanding how to handle nodes and edges to ensuring everything was connected properly, I had to refer to a lot of solutions to get a clear idea.
+- Dealing with Unreachable Nodes: 
+    I spent a good amount of time learning how to manage unreachable nodes in the distance array, especially how to keep track of "infinity" values until a valid path was found.
+- Implementing the Priority Queue: 
+    Implementing a min-heap or priority queue was probably the toughest part for me. It was easy to get stuck or make mistakes in how it was updated, and I still feel like I need a deeper understanding of how priority queues work and how to manage them efficiently.    
