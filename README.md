@@ -29,6 +29,18 @@ The average time complexity of QuickSort is O(n log n).
 This implementation works in-place, one advantage of QuickSort is its low space usage.
   - Achieving minimal space usage, it more space-efficient for large datasets.
 
+7/ Challenges Faced:
+- Deciding Between QuickSort and MergeSort: 
+    Initially, I debated whether to use QuickSort or MergeSort. 
+    Both have their advantages, but I ultimately chose QuickSort for its in-place sorting and lower space usage.
+
+- Choosing the Right Pivot: 
+    One of the trickier parts of QuickSort was figuring out how to choose the pivot efficiently. Picking the wrong pivot could lead to bad performance, so I had to explore different strategies like using a random pivot, and even referred to other solutions online for inspiration. 
+
+- Understanding the Concepts: 
+It took some time to fully grasp the concepts behind, especially how recursion and partitioning in practice. 
+But once I got a clear picture, things started to click. 
+
 # Network Delay Time
   (Finding how long it will take for a signal to travel from a source node to all other nodes in a network.)
 
